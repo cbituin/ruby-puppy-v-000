@@ -9,13 +9,15 @@ class Dog
   def initialize(name)
     @@name = name
     @@all << self
-    binding.pry
+    # binding.pry
   end
   
   def self.all
     allnames = []
     @@all.each do |dogs|
-      allnames << dogs.name
+      @@name
+      binding.pry
+    
     end
     allnames
   end
