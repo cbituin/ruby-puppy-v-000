@@ -14,7 +14,7 @@ class Dog
   def self.all
     allnames = []
     @@all.each do |dogs|
-      @@allnames << @@name
+      allnames << @@name
     end
     allnames
   end
