@@ -22,5 +22,5 @@ class Dog
     @@all.clear
   end
   
-        binding.pry
+      # binding.pry
 end
