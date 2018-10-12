@@ -12,10 +12,11 @@ class Dog
   end
   
   def self.all
+    @@allnames = []
     @@all.each do |dogs|
-
-      puts @@name
+      @@allnames << @@name
     end
+    @@allnames
   end
   
   def self.clear_all
