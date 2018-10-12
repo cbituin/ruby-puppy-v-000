@@ -13,7 +13,7 @@ class Dog
   
   def self.all
     @@all.each do |dogs|
-      binding.pry
+
       puts dogs.name
     end
   end
@@ -21,4 +21,6 @@ class Dog
   def self.clear_all
     @@all.clear
   end
+  
+        binding.pry
 end
