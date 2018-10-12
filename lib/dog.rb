@@ -7,7 +7,7 @@ class Dog
   @@all = []
   
   def initialize(name)
-    self.name = name
+    @@name = name
     @@all << self
     # binding.pry
   end
